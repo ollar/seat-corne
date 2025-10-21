@@ -1,0 +1,15 @@
+file_format: "1"
+id: ollar_kbrd_corne
+name: ollar_kbrd_corne
+type: shield
+url: https://github.com/foostan/crkbd/
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - underglow
+  - studio
+siblings:
+  - ollar_kbrd_corne_left
+  - ollar_kbrd_corne_right
